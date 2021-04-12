@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.bg-custom {
+    background-image: url('../img/hero/about_hero.png');
+}
+
+body {
+    padding-top: 56px;
+}
+
+.video {    
+    position: relative;
+    padding-top: 56.25%;
+
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+footer {
+    background-color: #eaeaeb;
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 32rem;
+}
+
+
+section {
+    padding: 25px 0;
+    margin-top: 25px;
+}
+
+.anchor {
+    display: block;
+    height: 92px;
+    margin-top: -92px;
+    visibility: hidden;
+}
+
+.product-area,
+.poem-area {
+    background-image: url('../img/hero/about_hero.png');
+
+}
+
+.poem {
+    margin: 0 10%;
+}
+
+@media (min-width: 40em) {
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+
+    .poem {
+        margin: 0 20%;
+    }
+}
